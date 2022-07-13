@@ -1,0 +1,10 @@
+file_format: "1"
+id: mano42
+name: Mano42
+type: shield
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - mano42_left
+  - mano42_right
