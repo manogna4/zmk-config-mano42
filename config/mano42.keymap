@@ -16,6 +16,20 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            bindings = <
+                            
+&kp COMMA &kp C   &kp D   &kp F    &kp K                                                        &kp V      &kp H       &kp T      &kp L     &kp DOT    
+&kp A     &kp S   &kp E   &kp R    &kp Y                                                        &kp BSPC   &kp J       &kp I      &kp O     &kp RET 
+&kp Q     &kp W   &kp G   &kp B    &kp J     &kp C_MUTE &kp N1             &kp N2    &kp C_PP   &kp X      &kp M       &kp U  &kp P     &kp Z
+                          &kp RET  &kp LALT  &kp SPACE  &kp DEL            &kp RET   &kp BSPC   &kp RBKT   &kp LGUI  
+            >;
+
+           
+        };
+        
+        
+        
+        orig_layer {
 //   ------------------------------------------------------------------------------------------------------------
 //  0|  ESC  |  1  |  2  |  3   |  4   |  5   |                     |  6   |  7    |  8    |  9   |   0   |   =   | 11
 // 12|  TAB  |  Q  |  W  |  E   |  R   |  T   |                     |  Y   |  U    |  I    |  O   |   P   |   [   | 23
